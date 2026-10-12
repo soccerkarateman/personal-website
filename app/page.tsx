@@ -40,7 +40,7 @@ export default function Home() {
   return <div className={`site ${entered ? 'entered' : ''}`}>
     {intro && <div className={`opening ${entered ? 'opening-out' : ''}`} aria-hidden="true"><div className="opening-name">yash bhuva<span className="opening-cursor">_</span></div><div className="opening-line"/></div>}
     <div className="page">
-      <header className="topbar entrance"><a className="name" href="#top">yash bhuva<span className="accent">.</span></a><div className="nav"><a href="mailto:yashbhuva@berkeley.edu">contact <ArrowUpRight size={12}/></a><a href="https://www.linkedin.com/in/yash-bhuva-80ab43256/" target="_blank" rel="noopener noreferrer">linkedin <ArrowUpRight size={12}/></a></div></header>
+      <header className="topbar entrance"><a className="name" href="#top">yash bhuva<span className="accent">.</span></a><div className="nav"><a href="mailto:yashbhuvaxyz@gmail.com">contact <ArrowUpRight size={12}/></a><a href="https://www.linkedin.com/in/yash-bhuva-80ab43256/" target="_blank" rel="noopener noreferrer">linkedin <ArrowUpRight size={12}/></a></div></header>
       <main id="top">
         <section className="intro entrance"><div className="intro-meta"><span>berkeley, california</span><span>personal site / 2026</span></div><h1>hey, i'm yash<span className="accent">.</span></h1><p className="intro-line">i'm an electrical engineering and computer sciences student at uc berkeley, interested in both software and hardware. i like the flexibility of software — being able to build, test, and iterate on ideas quickly — and the challenge of hardware, where those ideas have to work in the physical world. i'm especially interested in what happens when the two come together.</p><div className="intro-rule"><span>a little about me</span><span>↓</span></div></section>
         <div className="content entrance" id="about">
@@ -55,7 +55,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <footer className="footer entrance"><span>© {new Date().getFullYear()} yash bhuva</span><div><a href="mailto:yashbhuva@berkeley.edu">email <ArrowUpRight size={12}/></a></div></footer>
+      <footer className="footer entrance"><span>© {new Date().getFullYear()} yash bhuva</span><div><a href="mailto:yashbhuvaxyz@gmail.com">email <ArrowUpRight size={12}/></a></div></footer>
     </div>
   </div>;
 }
