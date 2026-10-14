@@ -4,8 +4,8 @@ import { useEffect, useState } from 'react';
 import { ArrowUpRight } from 'lucide-react';
 
 const previous = [
-  'robotics researcher @ salisbury robotics lab, stanford',
-  'nasa researcher',
+  'robotics research @ stanford',
+  'research @ nasa',
   'stanford simr scholar',
 ];
 const awards = [
